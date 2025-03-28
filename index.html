@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>dsa</title>
+    <meta charset="UTF-8">
+    <style>
+        .center-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 48px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+<script defer src="https://umami-test1.344400.xyz/script.js" data-website-id="d50afaed-3f4a-42af-a328-ff7999708dd7" onload="onUmamiLoaded();"></script>
+<script>
+const tempId = navigator.deviceMemory + navigator.hardwareConcurrency;
+function onUmamiLoaded() {
+  umami.identify({ uid: tempId, username: "john", timezone: Intl.DateTimeFormat().resolvedOptions().timeZone, userAgent: navigator.userAgent });
+}
+</script>
+</head>
+<body>
+    <div class="center-text">
+      It works.
+    </div>
+</body>
+</html>
