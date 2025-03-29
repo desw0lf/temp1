@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>? - in</title>
+<meta charset="UTF-8" />
+
+<script defer src="https://umami-test1.344400.xyz/script.js" data-website-id="d50afaed-3f4a-42af-a328-ff7999708dd7" onload="onUmamiLoaded();"></script>
+<script>
+const tempId = navigator.deviceMemory + navigator.hardwareConcurrency;
+function onUmamiLoaded() {
+  umami.identify({ uid: tempId, username: "john", timezone: Intl.DateTimeFormat().resolvedOptions().timeZone, userAgent: navigator.userAgent, isLoggedIn: 1 });
+}
+</script>
+</head>
+<body>
+<a href="/">Home</a>
+<a href="/site1.html">site1</a>
+<a href="/site2.html">site2</a>
+<a href="/site3.html">site3</a>
+</body>
+</html>
