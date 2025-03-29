@@ -8,7 +8,7 @@
 <script>
 const tempId = navigator.deviceMemory + navigator.hardwareConcurrency;
 function onUmamiLoaded() {
-  umami.identify({ uid: tempId, username: "john", timezone: Intl.DateTimeFormat().resolvedOptions().timeZone, userAgent: navigator.userAgent });
+  umami.identify({ uid: tempId, username: "john", timezone: Intl.DateTimeFormat().resolvedOptions().timeZone, userAgent: navigator.userAgent, isLoggedIn: 1 });
 }
 </script>
 </head>
